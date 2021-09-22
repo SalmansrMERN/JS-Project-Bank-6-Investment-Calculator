@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="text-center my-5 text-danger fw-bold">Welcome To Salman's Profit Counting System</h2>
+        <div id="bank_profit">
+            <h1 class="p-5 bg-success my-5 text-white rounded-3">Total Amount You Will Get After
+                <span id="year">0</span>
+                Years = $<span id="total_amount">00</span>
+            </h1>
+            <div class="input_area my-5">
+                <input type="text" placeholder="Your Investment Amount" id="investment_amount"
+                    class="p-3 bg-dark text-white fw-bold me-5">
+                <input type="text" placeholder="Your Spending Year" id="spending_year"
+                    class="p-3 bg-dark text-white fw-bold me-5">
+                <input type="text" placeholder="Your Preffered Percentage" id="percentage"
+                    class="p-3 bg-dark text-white fw-bold me-5">
+            </div>
+            <button class="btn btn-success me-3" id="calculate_btn">Calculate</button>
+            <button class="btn btn-danger" id="refresh_btn">Refresh</button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
